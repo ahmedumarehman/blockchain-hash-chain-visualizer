@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blockchain Hash Chain Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CryptoJS library for SHA-256 -->
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.min.js"></script>
+</head>
+
+<body>
+    <h1>Blockchain Hash Chain Visualizer</h1>
+
+    <div class="input-section">
+        <input type="text" id="blockData" placeholder="Enter block data">
+        <button onclick="addBlock()">Add Block</button>
+    </div>
+
+    <div id="chain" class="chain-section"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
